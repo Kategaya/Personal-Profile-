@@ -172,11 +172,9 @@ a.social:hover {
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
-  .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
+  .flex {     /* TWEENER - IE 10 */
       display: flex; 
       max-width: 1200px;
-      -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
   }
@@ -224,6 +222,9 @@ a.social:hover {
   margin-right: 50px;
 
 }
+.hr{
+  border: 2px solid red;
+}
 
 section{
   padding-right: 25px;
@@ -233,6 +234,4 @@ section{
   width: 30px;
   background-color: red;
 }
-.hr{
-  border: 2px solid red;
 }
